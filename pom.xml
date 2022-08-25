@@ -10,6 +10,7 @@
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>4.3.5.Final</version>
 		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -40,9 +41,9 @@
 						<version>2.2.2</version>
 					</dependency>
 					<dependency>
-						<groupId>org.postgresql</groupId>
-						<artifactId>postgresql</artifactId>
-						<version>42.3.5</version>
+						<groupId>com.oracle.ojdbc</groupId>
+						<artifactId>ojdbc10</artifactId>
+						<version>19.3.0.0</version>
 					</dependency>
 
 				</dependencies>
